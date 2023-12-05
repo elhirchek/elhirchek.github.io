@@ -1,0 +1,23 @@
+h1, h2, h3 {
+  color: var(--bg4);
+  margin: .7rem 0;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+p, pre {
+  margin: .7rem 0;
+}
+
+ul {
+  margin-left: 1.5rem;
+}
+
+a {
+  color: var(--blue1);
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: 2px underline var(--blue1);
+  }
+}

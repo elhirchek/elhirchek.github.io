@@ -1,0 +1,73 @@
+.flex {
+	height:100vh;
+	display: flex;
+	flex-direction: column;
+
+	&-header {
+		padding: 0.2rem 0;
+		margin: 1rem 0;
+		font-size: 1.3rem;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid var(--fg0);
+
+		& nav {
+			display: flex;
+			gap: .7rem;
+		}
+
+		& a {
+			color: var(--fg);
+			text-decoration: none;
+
+			&:hover {
+				text-decoration: 2px underline var(--blue1);
+			}
+		}
+	}
+
+	&-main {
+		flex: 1 1;
+
+		& .posts {
+			display: grid;
+
+			& .post {
+				display: flex;
+				justify-content: space-between;
+
+				& .post-title {
+					color: var(--fg);
+					text-decoration: none;
+
+					&:hover {
+						text-decoration: underline var(--blue1);
+
+					}
+				}
+
+				& .date {
+					color: var(--green1);
+				}
+			}
+		}
+	}
+
+	&-footer {
+		padding-bottom: .7rem;
+
+		& .center {
+			display: flex;
+			justify-content: center;
+			gap: .45rem;
+
+			&:first-child {
+				padding-bottom: .5rem;
+			}
+
+			&:last-child {
+				padding-top: .5rem;
+			}
+		}
+	}
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html data-theme="dark">
+	<head>
+		<meta charset="UTF-8">
+		{% block title %} {% endblock %}
+		<link rel="stylesheet" href="/style.css">
+	</head>
+	<body>
+		<div class="flex">
+			<header class="flex-header">
+				{% include "navbar.html" %}
+			</header>
+
+			<main class="flex-main">
+				{% block content %} {% endblock %}
+			</main>
+
+			<footer class="flex-footer">
+				{% include "footer.html" %}
+			</footer>
+		</div>
+	</body>
+</html>

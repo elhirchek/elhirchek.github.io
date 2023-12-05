@@ -1,0 +1,3 @@
+The source code of my personal website powered by [Zola](https://www.getzola.org/), [Scss](https://sass-lang.com/), and [Github Pages](https://pages.github.com/), Deployed using [Github Actions](https://docs.github.com/en/actions).
+
+**Note**: The source for this site was not created to be a template or theme, but for my own use. Feel free to take whatever inspiration from it that you want, but this code was not written with the intention of being cloned and deployed. As such, I do not provide support or guidance for doing that. I recommend using the [Zola Getting Started](https://www.getzola.org/documentation/getting-started/overview/) to set up your website or an existing theme created for that purpose.
